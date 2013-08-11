@@ -1,4 +1,4 @@
-require 'fluent/config'
+require 'fluent/config' rescue nil # ignore an exception for v11 support
 require 'uuidtools'
 
 module Fluent
